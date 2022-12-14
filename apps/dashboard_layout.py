@@ -7,7 +7,7 @@ from app import app
 
 url = "opc.tcp://192.168.0.30:4840"
 client = Client(url)
-client.connect()
+# client.connect()
 
 # LAYOUT COMPONENTS ---------------------------------------------------------------------------------------------------------------
 
